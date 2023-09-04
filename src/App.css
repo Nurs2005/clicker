@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-top: 10%;
 }
-
-.App-link {
-  color: #61dafb;
+#yellow{
+  background-color: rgb(240, 240, 0);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.string{
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+  align-items: center;
+}
+#show{
+  display: block;
+}
+.copy{
+  display: none;
+  width: 644px;
+  height: 188px;
+  padding: 10px 28px;
+  margin-top: 25px;
+  border: 1 solid #2f3747;
+  background-color: rgb(241, 235, 235);
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  text-align: center;
+}
+.copy svg{
+  height: 40px;
+  width: 40px;
+}
+.copy button{
+  color: rgb(0, 0, 0);
+  margin-top: -5px;
+  cursor: pointer;
+  border: 1 solid #000000;
+}
+.copy p:hover{
+  color: rgb(102, 115, 187);
+  cursor: pointer;
+}
+.p1{
+  width: 700px;
+  color: #262c3899;
+  margin-top: 25px;
+}
+.p{
+  height: 32px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
 }
